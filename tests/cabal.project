@@ -1,4 +1,15 @@
 packages: bytestring-tests.cabal
 
+-- QuickCheck with TH-2.17 compatibility fix
+source-repository-package
+    type: git
+    location: https://github.com/vdukhovni/quickcheck.git
+    tag: 22bc802f363a6aaa29c37ad798ea54aacc282c1a
+
+-- regex-base with GHC 8.12 compatibility fix
+source-repository-package
+    type: git
+    location: https://github.com/vdukhovni/regex-base.git
+    tag: fa1678c644962e21e13da4bfcb516c68233adaf9
 
 tests: True
